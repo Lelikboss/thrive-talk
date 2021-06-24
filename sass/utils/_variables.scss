@@ -1,0 +1,30 @@
+:root{
+    /// переменные семейства шрифтов
+    --regular-font: 'Larsseit';
+    --bold-font: 'Larsseit-Bold';
+    --medium-font: 'Larsseit-Medium';
+    --light-font: 'Larsseit-Light';
+    /// переменные размеров шрифта
+    --secondary-size: 14px;
+    --main-size: 16px;
+    --common-text-size: 24px
+    --tables-title-size: 28px;
+    --tables-size: 32px;
+    --accent-text-size: 36px;
+    --hero-title-size: 48px;
+    --accent-title-size: 64px;
+    /// переменные цвета шрифта
+    --first-main-color: #22356F;
+    --second-main-color: #ffffff;
+    --accent-color: #62D0DF;
+    --rare-color: #FAB63E;
+    /// переменные цвета на фон
+    --pink-bg: #FFE2DE;
+    --green-bg: #C4E769;
+    --blue-bg: #0052C1;
+    --silver-bg: #DEE1FF;
+    --purple-bg: #8F00FF;
+    --dark-blue-bg: #22356F;
+    --light-blue-bg: #62D0DF;
+    --silver-blue-bg: rgba(176, 210, 212, 1);
+}

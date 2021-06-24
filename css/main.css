@@ -263,6 +263,55 @@ summary {
   display: list-item;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--regular-font);
+  color: var(--first-main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+ul li {
+  margin-top: 0;
+  margin-right: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Larsseit';
   font-style: normal;
@@ -293,5 +342,17 @@ summary {
   font-weight: 700;
   src: url("../fonts/Larsseit-Bold.eot");
   src: local(""), url("../fonts/Larsseit-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff"), url("../fonts/Larsseit-Bold.ttf") format("truetype");
+}
+
+.container--content {
+  max-width: 1437px;
+  margin: 0 auto;
+  padding-right: 180px;
+  padding-left: 180px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */

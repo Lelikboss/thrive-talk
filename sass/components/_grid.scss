@@ -1,0 +1,9 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.grid-item{
+    flex-basis: calc((100% - 0px * var(--grid-item)) / var(--grid-item));
+    
+}

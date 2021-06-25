@@ -1,8 +1,18 @@
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    &--hero{
+    &--standart{
         padding-right: 40px;
         padding-left: 40px;
+        @media screen and (min-width: 1440px) {
+            padding-left: 179px;
+            padding-right: 131px;
+        }
+    }
+    &--about{
+        padding-left: 106px;
+    }
+    &-about--grid{
+        
     }
 }

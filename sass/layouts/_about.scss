@@ -45,6 +45,7 @@
         --grid-item: 4;
         height: 360px;
 
+        // ! IMPORTANT TO CHANGE (services)
         font-size: 32px;
         line-height: 1.0625;
         letter-spacing: -0.006em;
@@ -58,7 +59,7 @@
             content: '';
             position: absolute;
             width: 255px;
-            height: 2px;
+            height: 1px;
             top: 72px;
             left: 56px;
             background-color: var(--second-main-color);

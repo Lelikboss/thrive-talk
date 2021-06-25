@@ -428,13 +428,11 @@ address {
 }
 
 .hero {
-  outline: 1px solid blue;
   padding-top: 27px;
   padding-bottom: 75px;
 }
 
 .hero-content {
-  outline: 1px solid purple;
   max-width: 484px;
 }
 
@@ -475,7 +473,6 @@ address {
 }
 
 .header {
-  outline: 1px solid orangered;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -489,7 +486,6 @@ address {
 }
 
 .nav__item {
-  outline: 1px solid green;
   padding-top: 14px;
   padding-bottom: 14px;
 }
@@ -502,7 +498,6 @@ address {
 }
 
 .introductory {
-  outline: 1px solid red;
   padding-top: 151px;
   padding-bottom: 92px;
   background-color: var(--light-blue-bg);
@@ -510,7 +505,6 @@ address {
 }
 
 .introductory__title {
-  outline: 1px solid black;
   margin-bottom: 75px;
   font-size: var(--accent-text-size);
   line-height: 0.75;
@@ -518,7 +512,6 @@ address {
 }
 
 .introductory__text {
-  outline: 1px solid black;
   margin-bottom: 0;
   max-width: 553px;
   line-height: 35px;
@@ -536,7 +529,6 @@ address {
 }
 
 .about__block:first-child {
-  outline: 1px solid tomato;
   display: flex;
   padding-bottom: 76px;
 }

@@ -1,4 +1,27 @@
 .header{
+    outline: 1px solid orangered;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 164px;
+}
+.nav{
+    &__list{
+        display: flex;
+
+        font-size: var(--secondary-size);
+        line-height: 16px;
+    }
+    &__item{
+        outline: 1px solid green;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    &__link{
+        padding-top: 100%;
+        padding-bottom: 100%;
+        padding-left: calc(27px /2);
+        padding-right: calc(27px /2);
+    }
 }

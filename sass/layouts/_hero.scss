@@ -1,0 +1,42 @@
+.hero{
+    outline: 1px solid blue;
+    padding-top: 27px;
+    padding-bottom: 75px;
+}
+
+.hero-content{
+    outline: 1px solid purple;
+    max-width: 484px;
+    &__pretitle{
+        margin-bottom: 40px;
+    }
+    &__title{
+        margin-bottom: 78px;
+        font-size: var(--hero-title-size);
+        line-height: 53px;
+        letter-spacing: -0.035em;
+    }
+    &__text{
+        margin-bottom: 63px;
+
+        line-height: 1.75;
+    }
+    &__list{
+        display: flex;
+
+        font-size: 16px;
+        line-height: 1.875; //1.43
+        letter-spacing: 0.1em;
+    }
+    &__item{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    &__item:first-child{
+        margin-right: 38px;
+        padding-right: 30px;
+        padding-left: 30px;
+        background-color: #F9B640;
+        color: var(--second-main-color);
+    }
+}

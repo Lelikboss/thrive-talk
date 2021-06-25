@@ -474,4 +474,31 @@ address {
   padding-left: calc(27px /2);
   padding-right: calc(27px /2);
 }
+
+.introductory {
+  outline: 1px solid red;
+  padding-top: 151px;
+  padding-bottom: 92px;
+  background-color: var(--light-blue-bg);
+  color: var(--second-main-color);
+}
+
+.introductory__title {
+  margin-bottom: 75px;
+  font-size: var(--accent-text-size);
+  line-height: 0.75;
+  letter-spacing: -0.006em;
+}
+
+.introductory__text {
+  margin-bottom: 0;
+  max-width: 553px;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.introductory__text--weight {
+  font-weight: 900;
+  font-size: var(--common-text-size);
+}
 /*# sourceMappingURL=main.css.map */

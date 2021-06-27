@@ -3,11 +3,18 @@
     padding-bottom: 92px;
 
     background-color: var(--light-blue-bg);
-
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-image: url(../images/introd-bg-1x.jpg);
+    
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/introd-bg-2x.jpg);
+      }
     color: var(--second-main-color);
     &__title{
 
-        margin-bottom: 75px;
+        margin-bottom: 89px;
         font-size: var(--accent-text-size);
         line-height: 0.75;
         letter-spacing: -0.006em;

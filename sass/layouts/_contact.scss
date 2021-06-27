@@ -1,0 +1,31 @@
+.contact{
+    padding-top: 103px;
+    padding-bottom: 42px;
+    background-color: var(--dark-blue-bg);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-image: url(../images/contact-bg-1x.jpg);
+    
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/contact-bg-2x.jpg);
+      }
+
+    &__container{
+    }
+    &__title{
+        color: var(--second-main-color);
+        font-weight: 400;
+    }
+    &__text{
+        color: var(--second-main-color);
+    }
+    &__link{
+        color: var(--accent-color);
+    }
+}
+
+.contact--wrapper{
+    max-width: 576px;
+}

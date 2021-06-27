@@ -1,4 +1,13 @@
 .section{
     max-width: 1440px;
     margin: 0 auto;
+    &__text{
+        font-size: var(--accent-text-size);
+        line-height: 1.47222222222;
+    }
+    &__link{
+        font-size: var(--main-size);
+        line-height: 1.4375;
+        letter-spacing: 0.1em;
+    }
 }

@@ -394,6 +394,11 @@ address {
   padding-left: 106px;
 }
 
+.container--blog {
+  padding-right: 175px;
+  padding-left: 175px;
+}
+
 .section {
   max-width: 1440px;
   margin: 0 auto;
@@ -698,5 +703,41 @@ address {
   line-height: 1.75;
   letter-spacing: -0.03em;
   color: rgba(34, 53, 111, 0.5);
+}
+
+.blog {
+  padding-top: 143px;
+  padding-bottom: 42px;
+}
+
+.blog__title {
+  margin-bottom: 225px;
+  font-size: var(--main-size);
+  line-height: 0.75;
+  letter-spacing: 0.06em;
+}
+
+.blog__text {
+  margin-bottom: 152px;
+  font-weight: bold;
+  font-size: var(--accent-text-size);
+  line-height: 1.47222222222;
+  letter-spacing: -0.01em;
+}
+
+.blog__text--link {
+  color: var(--accent-color);
+}
+
+.blog__link {
+  font-size: var(--main-size);
+  line-height: 1.4375;
+  letter-spacing: 0.1em;
+  color: var(--rare-color);
+}
+
+.blog--wrapper {
+  max-width: 676px;
+  margin-left: auto;
 }
 /*# sourceMappingURL=main.css.map */

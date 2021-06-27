@@ -1,0 +1,34 @@
+.blog{
+    padding-top: 143px;
+    padding-bottom: 42px;
+    &__title{
+        margin-bottom: 225px;
+
+        font-size: var(--main-size);
+        line-height: 0.75;
+        letter-spacing: 0.06em;
+    }
+    &__text{
+        margin-bottom: 152px;
+
+        font-weight: bold;
+        font-size: var(--accent-text-size);
+        line-height: 1.47222222222;
+        letter-spacing: -0.01em;
+
+        &--link{
+            color: var(--accent-color);
+        }
+    }
+    &__link{
+        font-size: var(--main-size);
+        line-height: 1.4375;
+        letter-spacing: 0.1em;
+
+        color: (var(--rare-color));
+    }
+}
+.blog--wrapper{
+    max-width: 676px;
+    margin-left: auto;
+}

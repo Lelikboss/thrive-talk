@@ -5,12 +5,25 @@
     &__grid:first-child{
         margin-bottom: 22px;
     }
+    &__grid-img{
+        width: 100%;
+        position: absolute;
+        transform: scale(0);
+        transition: transform 250ms;
+        }
     &__grid-link{
         position: relative;
         padding-top: 126px;
         padding-left: 104px;
         display: block;
         height: 480px;
+        transition: box-shadow 250ms;
+        &:hover{
+            box-shadow: inset 0px 3px 20px rgba(0, 0, 0, 67%), 0px 4px 4px rgba(0, 0, 0, 6%), 1px 4px 6px rgba(0, 0, 0, 16%);
+        }
+        &:hover .services__grid-img{
+            transform: scale(1)
+        }
 
         // ! IMPORTANT TO CHANGE (about)
         font-size: 32px;
@@ -41,6 +54,7 @@
     }
     &__grid-item:first-child{
         background-color: var(--dark-blue-bg);
+
     }
     &__grid-item:nth-child(2){
         background-color: var(--blue-bg);
@@ -57,8 +71,32 @@
     &__grid-item:last-child{
         background-color:var(--purple-bg);
     }
+    .physical{
+        left: -5px;
 
-
+    }
+    .mental{
+        top: 129px;
+        width: 90%;
+        left: 32px;
+    }
+    .nutrition{
+        width: 80%;
+        top: 45%;
+        right: 10%;
+    }
+    .gymnastic{
+        width: 60%;
+        left: 70px;
+    }
+    .crossfit{
+        bottom: -16px;
+        right: 1%;
+    }
+    .aerobic{
+        bottom: 1px;
+        left: 0;
+    }
     &__grid-inner{
         padding-left: 105px;
         padding-top: 55px;

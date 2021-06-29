@@ -668,16 +668,32 @@ address {
   margin-bottom: 22px;
 }
 
+.services__grid-img {
+  width: 100%;
+  position: absolute;
+  transform: scale(0);
+  transition: transform 250ms;
+}
+
 .services__grid-link {
   position: relative;
   padding-top: 126px;
   padding-left: 104px;
   display: block;
   height: 480px;
+  transition: box-shadow 250ms;
   font-size: 32px;
   line-height: 1.0625;
   letter-spacing: -0.006em;
   color: var(--second-main-color);
+}
+
+.services__grid-link:hover {
+  box-shadow: inset 0px 3px 20px black, 0px 4px 4px black, 1px 4px 6px black;
+}
+
+.services__grid-link:hover .services__grid-img {
+  transform: scale(1);
 }
 
 .services__grid-link::after {
@@ -723,6 +739,37 @@ address {
 
 .services__grid-item:last-child {
   background-color: var(--purple-bg);
+}
+
+.services .physical {
+  left: -5px;
+}
+
+.services .mental {
+  top: 129px;
+  width: 90%;
+  left: 32px;
+}
+
+.services .nutrition {
+  width: 80%;
+  top: 45%;
+  right: 10%;
+}
+
+.services .gymnastic {
+  width: 60%;
+  left: 70px;
+}
+
+.services .crossfit {
+  bottom: -16px;
+  right: 1%;
+}
+
+.services .aerobic {
+  bottom: 1px;
+  left: 0;
 }
 
 .services__grid-inner {

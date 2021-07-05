@@ -442,6 +442,12 @@ address {
   background-color: var(--light-blue-bg);
   border: none;
   border-radius: 50px;
+  cursor: pointer;
+  transition: box-shadow 500ms;
+}
+
+.btn:hover {
+  box-shadow: 1px -1px 8px 9px rgba(34, 60, 80, 0.2) inset;
 }
 
 .grid {
@@ -523,8 +529,25 @@ address {
 }
 
 .nav__item {
+  position: relative;
   padding-top: 14px;
   padding-bottom: 14px;
+}
+
+.nav__item::after {
+  bottom: 0px;
+  content: '';
+  position: absolute;
+  height: 2px;
+  left: 0;
+  width: 100%;
+  background-color: var(--blue-bg);
+  transform: scale(0);
+  transition: transform 500ms;
+}
+
+.nav__item:hover::after {
+  transform: scale(1);
 }
 
 .nav__link {

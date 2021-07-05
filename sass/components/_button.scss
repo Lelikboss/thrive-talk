@@ -11,4 +11,11 @@
     background-color: var(--light-blue-bg);
     border: none;
     border-radius: 50px;
+
+    cursor: pointer;
+
+    transition: box-shadow 500ms;
+    &:hover{
+        box-shadow: 1px -1px 8px 9px rgba(34, 60, 80, 0.2) inset;
+    }
 }
